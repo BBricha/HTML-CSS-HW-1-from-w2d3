@@ -1,6 +1,6 @@
 body{
     
-    box-sizing: border-box;
+    background-color: rgb(236, 195, 144)
 }
 
 .img-article-container{
@@ -30,4 +30,9 @@ nav a {
     color: white;
     font-weight: bold;
 }
+    }
+
+
+img {
+        max-width: 25%;
     }
