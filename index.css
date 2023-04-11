@@ -2,7 +2,9 @@ body{
     
     background-color: rgb(236, 195, 144)
 }
-
+header {
+    align-items: center;
+}
 .img-article-container{
     display: flex;
     margin-top: 20px;
@@ -15,8 +17,6 @@ body{
     display: inline-block;
     width: 50%;
 }
-body
-    {
 nav {
     background-color: darkred;
     margin: 0px 20px;
@@ -30,7 +30,7 @@ nav a {
     color: white;
     font-weight: bold;
 }
-    }
+   
 
 
 img {
