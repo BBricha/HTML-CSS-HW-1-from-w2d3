@@ -5,41 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <title>My website</title>
+    <title>Business website</title>
 </head>
 <body>
     <header>
         <h1>Bader's Bricha Business</h1>
     </header>
-    <nav class="nav-flexbox">
-        <div id="home-buttons-container">
-            <div>Home</div>
-            <div>About</div>
-            <div>Contact</div>
-            <div>Products</div>
-        </div>
-        <img src="https://lh3.googleusercontent.com/pw/AMWts8CluC9rgqZdyimoL05klheKgyDHG0fvvF-865IujVcL0CERTEBO4af5gZdOCybYYTYS5Juo73E6c8ZvSwLJtbAj1ps1TX5YHV8Pp5nLiPc3MyrDfBB2fLZesVPI6NqTWbLD7UQDDfsADWus5KUtDbiW=w882-h661-no">
-        <div>About</div>
-        <div>Contact</div>
-    
-    <nav>
-    </nav class="top-products">
-        <div>Top products</div>
 
+    <nav id="home-buttons-container">       
+        <a class="nav-button">Home</a>
+        <a class="nav-button">About</a>
+        <a class="nav-button">Contact</a>
+        <a class="nav-button">Products</a>
+    </nav>
+    <nav class="photo-text-container">
+        <img src="https://lh3.googleusercontent.com/pw/AMWts8CluC9rgqZdyimoL05klheKgyDHG0fvvF-865IujVcL0CERTEBO4af5gZdOCybYYTYS5Juo73E6c8ZvSwLJtbAj1ps1TX5YHV8Pp5nLiPc3MyrDfBB2fLZesVPI6NqTWbLD7UQDDfsADWus5KUtDbiW=w882-h661-no">
+        <div>
+            <h>Hi! I'm Bader!</h>
+            <p> Custom Software Development: You could start a business that provides custom software development services to clients. This could include creating new software applications from scratch or customizing existing software to meet the specific needs of clients.
+
+                IT Support Services: You could offer IT support services to businesses and organizations, such as troubleshooting hardware and software issues, setting up networks, and managing data storage.
+                
+                Cybersecurity Consulting: With the increasing prevalence of cyber attacks, businesses are in need of experts who can help them protect their sensitive data. You could offer cybersecurity consulting services, including risk assessments, security audits, and training.
+                
+                Mobile App Development: Mobile apps are in high demand these days, and you could capitalize on that by starting a business that specializes in mobile app development. You could create your own apps or work with clients to create custom apps for their businesses.</p>
+        </div>
+
+
+    </nav>
+    <nav class="products-ways-container">
+        <nav><h2>Top products</h2>
             <ol>
                 <li> Itegrety</li>
                 <li> Patience</li>
                 <li> pationate</li>
             </ol>
-        <div>
-            <h2>Ways to order</h2> 
+            
+        </nav>
+        <div><h2>Ways to order</h2> 
             <ul>
-                <li>Order online via</li>
-                <li>Order online via</li>
-                <li>Order online via</li>
+                <li>Order online via <a href="https://www.paypal.com/us/home">PayPal</a></li>
+                <li>Order via phone number: <span style="color: rgb(238, 22, 10);">(123) 456-7890</span></li>  
             </ul>
 
         </div>
     </nav>
+    <nav class="images">
+        
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/936137/pexels-photo-936137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+       
+    </nav>
+    <hr>
+    <form>
+        <h3>Submit a Question</h3>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="question">Question:</label>
+        <textarea id="question" name="question" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
 </body>
 </html>

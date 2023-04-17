@@ -1,10 +1,68 @@
+
+
 body{
+    margin: 3%;
+    font-family: Helvetica;
+    background-color: rgb(211, 210, 208);
     
-    background-color: rgb(236, 195, 144)
 }
 header {
-    align-items: center;
+    font-family: fantasy;
+    
+
 }
+#home-buttons-container {
+    background-color: darkred;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+.photo-text-container {
+    display: flex;
+
+    margin-top: 14px ;
+    align-items: stretch;
+    
+}
+
+
+.photo-text-container img {
+    max-width: 20%;
+    max-height: fit-content;
+    margin-right: 15px;
+}
+.photo-text-container div h {
+    margin-top: auto;
+    font-size: xx-large;
+}
+.photo-text-container div p {
+    margin-bottom: auto
+}
+.top-products-container {
+    display: inline-block;
+    width: 50%;
+
+}
+.products-ways-container {
+    display: flex;
+    flex-direction: row;
+}
+.products-ways-container div {
+    margin-left: 60px;
+}
+
+
+.images * {
+    max-width: 14%;
+
+    margin-right: 20px;
+}
+
+/*
+
 .img-article-container{
     display: flex;
     margin-top: 20px;
@@ -17,14 +75,7 @@ header {
     display: inline-block;
     width: 50%;
 }
-nav {
-    background-color: darkred;
-    margin: 0px 20px;
-    height: 70px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 nav a {
     margin: 0px 7%;
     color: white;
@@ -33,6 +84,5 @@ nav a {
    
 
 
-img {
-        max-width: 25%;
-    }
+
+    */
